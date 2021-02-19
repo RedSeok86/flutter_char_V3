@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_video_chat_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dfdfdf"
+    tools:context=".VideoCall">
+
+    <!-- View -->
+    <RelativeLayout
+        android:id="@+id/view_call1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/userID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:layout_weight="0"
+                        android:text="받는사람"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/userPhoto"
+
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_weight="0"
+                        android:padding="10dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/btn_end_call" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_weight="0"
+                    android:gravity="center|center_vertical">
+
+                    <ImageView
+                        android:id="@+id/btn_sk"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:onClick="onSwitchSpeakerphoneClicked"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/bt_sk"
+                        android:visibility="gone" />
+
+
+                    <ImageView
+                        android:id="@+id/btn_call"
+
+                        android:layout_width="0dp"
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        android:onClick="onCall"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icon_call" />
+                    <ImageView
+                        android:layout_width="0dp"
+
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        android:onClick="onCancell"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icon_end" />
+
+
+                    <ImageView
+                        android:id="@+id/btn_mute"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:onClick="onLocalAudioMuteClicked"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/bt_voice"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0"
+                android:orientation="vertical"></LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/view_call2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <!-- Call -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:id="@+id/local_video_view_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#afafaf" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:id="@+id/remote_video_view_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/quick_tips_when_use_agora_sdk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="40dp"
+                android:gravity="center_vertical|start"
+                android:text="1. Default channel name is demoChannel1\n2. Waiting for remote users\n3. This demo only supports 1v1 video calling" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:onClick="onLocalVideoMuteClicked"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/btn_voice"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="20"
+                    android:onClick="onLocalAudioMuteClicked"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/btn_mute" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="25"
+                    android:onClick="onEncCallClicked"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/btn_end_call" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="20"
+                    android:onClick="onSwitchCameraClicked"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/btn_switch_camera" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

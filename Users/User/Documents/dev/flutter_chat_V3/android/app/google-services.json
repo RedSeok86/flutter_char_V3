@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "1086554509123",
+    "firebase_url": "https://tapick-chat.firebaseio.com",
+    "project_id": "tapick-chat",
+    "storage_bucket": "tapick-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086554509123:android:24a0e347f7c3c317f3a9f6",
+        "android_client_info": {
+          "package_name": "com.tapick.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086554509123-521lmddtp7mi5f00eachph92h437ieur.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tapick.chat",
+            "certificate_hash": "2fde0374b4a79aea940662d9e4fddcfa7a92506a"
+          }
+        },
+        {
+          "client_id": "1086554509123-14uo4v28kl62d95vec9j2qlj46jagcg7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFxZRYqIM1FtwL-t87GGC0kIcLTYD2BnA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086554509123-14uo4v28kl62d95vec9j2qlj46jagcg7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086554509123:android:ce0f95f5fc8b9c8af3a9f6",
+        "android_client_info": {
+          "package_name": "com.tapick.tapickchatflutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086554509123-9dh1g3h9qb19ofts8v9oeii601qa2kkr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tapick.tapickchatflutter",
+            "certificate_hash": "2fde0374b4a79aea940662d9e4fddcfa7a92506a"
+          }
+        },
+        {
+          "client_id": "1086554509123-14uo4v28kl62d95vec9j2qlj46jagcg7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFxZRYqIM1FtwL-t87GGC0kIcLTYD2BnA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086554509123-14uo4v28kl62d95vec9j2qlj46jagcg7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086554509123:android:afd333503815ee5df3a9f6",
+        "android_client_info": {
+          "package_name": "com.tapick.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086554509123-ql1e0kncmcsthfka24i3p543cdd9nge6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tapick.chat",
+            "certificate_hash": "2fde0374b4a79aea940662d9e4fddcfa7a92506a"
+          }
+        },
+        {
+          "client_id": "1086554509123-14uo4v28kl62d95vec9j2qlj46jagcg7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFxZRYqIM1FtwL-t87GGC0kIcLTYD2BnA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086554509123-14uo4v28kl62d95vec9j2qlj46jagcg7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

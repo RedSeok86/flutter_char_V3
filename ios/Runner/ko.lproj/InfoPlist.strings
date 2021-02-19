@@ -1,0 +1,25 @@
+/* 
+  InfoPlist.strings
+  Runner
+
+  Created by Giuseppe Gioi on 2020/09/15.
+  Copyright © 2020 The Chromium Authors. All rights reserved.
+*/
+
+// 11 Permission
+
+// Needed
+NSCameraUsageDescription = "Papucon은 통화 기능 및 사진 촬영을 위해 카메라 권한이 필요합니다.";
+NSMicrophoneUsageDescription = "Papucon은 통화 및 음성 메시지 기능을 위해 마이크 권한이 필요합니다.";
+NSPhotoLibraryAddUsageDescription = "Papucon은 이미지 업로드를 위해 갤러리 접근 권한이 필요합니다.";
+NSPhotoLibraryUsageDescription = "Papucon은 이미지 업로드를 위해 갤러리 접근 권한이 필요합니다.";
+
+// Not needed
+NSAppleMusicUsageDescription = "해당 권한은 앱에서 필요하지 않습니다, 권한 요청이 된 경우 거부하십시오";
+NSCalendarsUsageDescription = "해당 권한은 앱에서 필요하지 않습니다, 권한 요청이 된 경우 거부하십시오";
+NSContactsUsageDescription = "해당 권한은 앱에서 필요하지 않습니다, 권한 요청이 된 경우 거부하십시오";
+NSLocationAlwaysUsageDescription = "해당 권한은 앱에서 필요하지 않습니다, 권한 요청이 된 경우 거부하십시오";
+NSLocationWhenInUseUsageDescription = "해당 권한은 앱에서 필요하지 않습니다, 권한 요청이 된 경우 거부하십시오";
+NSMotionUsageDescription = "해당 권한은 앱에서 필요하지 않습니다, 권한 요청이 된 경우 거부하십시오";
+NSSpeechRecognitionUsageDescription = "해당 권한은 앱에서 필요하지 않습니다, 권한 요청이 된 경우 거부하십시오";
+

@@ -1,0 +1,25 @@
+/* 
+  InfoPlist.strings
+  Runner
+
+  Created by Giuseppe Gioi on 2020/09/15.
+  Copyright © 2020 The Chromium Authors. All rights reserved.
+*/
+
+// 11 Permission
+
+// Needed
+NSCameraUsageDescription = "Papucon needs Camera access for taking pictures and Call functionalities.";
+NSMicrophoneUsageDescription = "Papucon needs Microphone access for Call and Voice Messages functionalities.";
+NSPhotoLibraryAddUsageDescription = "Papucon needs Photo Library access to upload images.";
+NSPhotoLibraryUsageDescription = "Papucon needs Photo Library access to upload images.";
+
+// Not needed
+NSAppleMusicUsageDescription = "This permission is not needed by the app, if requested please reject (It shouldn't ever call though).";
+NSCalendarsUsageDescription = "This permission is not needed by the app, if requested please reject (It shouldn't ever call though).";
+NSContactsUsageDescription = "This permission is not needed by the app, if requested please reject (It shouldn't ever call though).";
+NSLocationAlwaysUsageDescription = "This permission is not needed by the app, if requested please reject (It shouldn't ever call though).";
+NSLocationWhenInUseUsageDescription = "This permission is not needed by the app, if requested please reject (It shouldn't ever call though).";
+NSMotionUsageDescription = "This permission is not needed by the app, if requested please reject (It shouldn't ever call though).";
+NSSpeechRecognitionUsageDescription = "This permission is not needed by the app, if requested please reject (It shouldn't ever call though).";
+
